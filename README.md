@@ -2,6 +2,13 @@
 
 **FriendlyIdSchema** is a micro gem that combines [FriendlyId](https://github.com/norman/friendly_id) with [ActiveRecordSchema](https://github.com/mcasimir/active_record_schema)
 
+## Installation
+
+``` rb
+  gem 'friendly_id_schema', :git => "git://github.com/mcasimir/friendly_id_schema.git"
+```
+
+
 ## Usage
 
 Call `#permalink` inside a model like this:
